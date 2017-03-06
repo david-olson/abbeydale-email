@@ -5,7 +5,7 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #efefef !important;
 }
 
 .container.header {
@@ -56,4 +56,72 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+.red_border {
+    background-color: #8b181a;
+}
+
+.logo {
+    max-width: 178px;
+    font-family: Georgia, serif;
+
+}
+
+.main_body {
+    h1 {
+        font-family: Georgia, serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        color: #a7a9ac;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        line-height: 2;
+    }
+    p {
+        font-family: Georgia, serif;
+        color: #a7a9ac;
+        line-height: 2.25;
+        font-size: 16px;
+    }
+}
+
+.appointment {
+    text-align: center;
+    p {
+        text-align: center;
+        font-family: Georgia, serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 8px;
+        color: #a7a9ac;
+        margin-bottom: 40px;
+        a {
+            font-family: Georgia, serif;
+            color: #a7a9ac;
+        }
+    }
+    p.appt {
+        color: #6d6e71;
+        font-size: 10px;
+    }
+}
+
+.red {
+    background-color: #8b181a;
+    a {
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 12px;
+    }
+}
+
+.insta {
+    max-width: 20px;
+    max-height: 20px;
+    text-align: center;
 }
